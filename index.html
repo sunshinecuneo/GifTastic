@@ -1,0 +1,41 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Viewport Tag -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- css reset -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <!-- My css styling -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+    <title>GifTastic!</title>
+</head>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Tiffany's Gif Generator</h1>
+            <form class="gifForm">
+                <label for="gifInput">Please enter your gif</label>
+                <input type="text" id="gifInput">
+                <input type="submit" value="Add a gif">
+            </form>
+
+            <p>Click gifs to animate</p>
+
+            <div class="row" id="gif-view"></div>
+        </div>
+    </div>
+</div>
+
+<body>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
